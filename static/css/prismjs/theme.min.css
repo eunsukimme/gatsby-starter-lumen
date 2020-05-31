@@ -23,14 +23,14 @@ code[class*=language-] ::-moz-selection,
 code[class*=language-]::-moz-selection,
 pre[class*=language-] ::-moz-selection,
 pre[class*=language-]::-moz-selection {
-  background: #073642
+  background: #add6ff66;
 }
 
 code[class*=language-] ::selection,
 code[class*=language-]::selection,
 pre[class*=language-] ::selection,
 pre[class*=language-]::selection {
-  background: #073642
+  background: #add6ff66;
 }
 
 pre[class*=language-] {

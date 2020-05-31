@@ -1,16 +1,16 @@
 ---
 title: Naive Bayse(나이브 베이즈) 개념 정리
 description: "베이즈 정리를 바탕으로 임의의 데이터 포인트가 주어졌을 때 특정 클래스로 예측될 확률을 계산하는 나이브 베이즈 모델에 대해서 알아봅시다"
-date: '2019-12-03T02:00:00.000Z'
-layout: post
+date: "2019-12-03T02:00:00.000Z"
+template: post
+slug: "understanding-naive-bayse"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
   - scikit-learn
-use_math: true
-comments: true
+socialImage: "/media/naive_bayes.png"
 ---
 
 Naive Bayes는 베이즈 정리를 활용한 지도 학습 분류 모델입니다. 베이즈 정리는 [데이터 과학을 위한 확률 한 번에 이해하기](https://eunsukimme.github.io/data%20science/2019/09/16/Data-anlysis-probability/)에서 언급한 적이 있습니다. 베이즈 정리를 다시 짚고 넘어가면, 특정 사건 B가 $B_1, B_2, ..., B_n$로 분할되고 $B$가 주어졌을 때 사건 $A$ 가 발생할 확률을 다음과 같이 나타낼 수 있습니다.

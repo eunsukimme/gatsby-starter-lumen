@@ -1,16 +1,16 @@
 ---
 title: Random Forest(랜덤 포레스트) 개념 정리
-description: 'Decision Tree는 overfitting될 가능성이 높다는 약점을 가지고 있습니다. 가지치기를 통해 트리의 최대 높이를 설정해 줄 수 있지만 이로써는 overfitting을 충분히 해결할 수 없습니다. 그러므로 좀더 일반화된 트리를 만드는 방법을 생각해야합니다. 이는 Random Forest(랜덤 포레스트)의 기원이 되는 아이디어입니다. 이번 포스팅에서는 랜덤 포레스트에 대해서 알아봅시다.'
-date: '2019-11-26T22:30:00.000Z'
-layout: post
+description: "Decision Tree는 overfitting될 가능성이 높다는 약점을 가지고 있습니다. 가지치기를 통해 트리의 최대 높이를 설정해 줄 수 있지만 이로써는 overfitting을 충분히 해결할 수 없습니다. 그러므로 좀더 일반화된 트리를 만드는 방법을 생각해야합니다. 이는 Random Forest(랜덤 포레스트)의 기원이 되는 아이디어입니다. 이번 포스팅에서는 랜덤 포레스트에 대해서 알아봅시다."
+date: "2019-11-26T22:30:00.000Z"
+template: post
+slug: "understanding-random-forest"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
   - scikit-learn
-use_math: true
-comments: true
+socialImage: "/media/random_forest.svg"
 ---
 
 Decision Tree는 overfitting될 가능성이 높다는 약점을 가지고 있습니다. 가지치기를 통해 트리의 최대 높이를 설정해 줄 수 있지만 이로써는 overfitting을 충분히 해결할 수 없습니다. 그러므로 좀더 일반화된 트리를 만드는 방법을 생각해야합니다. 이는 Random Forest(랜덤 포레스트)의 기원이 되는 아이디어입니다.

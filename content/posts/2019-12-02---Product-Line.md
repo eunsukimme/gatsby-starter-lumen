@@ -1,15 +1,15 @@
 ---
 title: Production Line Analysis(생산 라인 분석) 개념 정리
 description: "생산구성요소를 공정 순서에 따라 연속적으로 배치하는것을 생산 라인이라고 합니다. 이러한 생산 라인에 대한 개념과 생산 라인을 효율적으로 구성하는 절차에 대해서 알아봅시다."
-date: '2019-12-02T02:40:00.000Z'
-layout: post
+date: "2019-12-02T02:40:00.000Z"
+template: post
+slug: "understanding-production-line-analysis"
 category: System Management Engineering
 tags:
   - TIL
   - Python
   - System Management Engineering
-use_math: true
-comments: true
+socialImage: "/media/line_balancing.jpg"
 ---
 
 # 생산 라인

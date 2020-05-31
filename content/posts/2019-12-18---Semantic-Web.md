@@ -1,15 +1,15 @@
 ---
 title: Semantic HTML(시맨틱 HTML) 이란?
-description: '웹 페이지의 접근성과 SEO(Search Engine Optimization)을 향상시켜주고 코드의 가독성을 높여주는 Semantic HTML에 대해서 알아보고, semantic 태그들에는 어떤 것들이 있는지 알아봅시다.'
-date: '2019-12-18T00:30:00.000Z'
-layout: post
+description: "웹 페이지의 접근성과 SEO(Search Engine Optimization)을 향상시켜주고 코드의 가독성을 높여주는 Semantic HTML에 대해서 알아보고, semantic 태그들에는 어떤 것들이 있는지 알아봅시다."
+date: "2019-12-18T00:30:00.000Z"
+template: post
+slug: "understanding-semantic-html"
 category: Front-end
 tags:
   - TIL
   - WEB
   - HTML
-use_math: true
-comments: true
+socialImage: "/media/semantic_web.png"
 ---
 
 _Semantic HTML_ 에서 semantic(시맨틱)이란 "의미적으로 연관이 있는" 것을 의미합니다. 즉 semantic HTML 은 각 HTML 태그가 포함하는 내용에 대한 정보를 제공한다는 것을 의미합니다.

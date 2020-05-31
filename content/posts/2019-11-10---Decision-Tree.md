@@ -1,16 +1,16 @@
 ---
 title: Decision Tree(의사 결정 트리) 개념 정리
 description: classification 문제를 해결하는 Decision Tree에 대해서 알아봅시다
-date: '2019-11-10T23:55:00.000Z'
-layout: post
+date: "2019-11-10T23:55:00.000Z"
+template: post
+slug: "understanding-decision-tree"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
   - scikit-learn
-use_math: true
-comments: true
+socialImage: "/media/decision_tree.jpg"
 ---
 
 Decision Tree(의사 결정 트리)는 데이터의 feature에서 패턴을 찾는 머신러닝 모델입니다. 의사 결정 트리는 지도학습 모델로, 주어진 labeled 데이터로 트리를 만듦으로써 '학습'을 진행하게 됩니다.
