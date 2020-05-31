@@ -1,15 +1,14 @@
 ---
 title: Normalization(정규화) 개념 정리
 description: Machine Learning에서 데이터의 분포를 고르게 만드는 정규화에 대해서 알아봅시다
-date: '2019-10-20T10:00:00.000Z'
-layout: post
+date: "2019-10-20T10:00:00.000Z"
+template: post
+slug: "understanding-normalization"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
-use_math: true
-comments: true
 ---
 
 많은 ML 알고리즘들은 데이터의 각 feature들을 비교하여 데이터의 트렌드를 찾고자합니다. 그런데 만약 feature들의 스케일이 각각 상이하면 문제가 될 수 있습니다.

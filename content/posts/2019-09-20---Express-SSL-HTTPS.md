@@ -1,8 +1,9 @@
 ---
 title: SSL 인증서를 활용하여 Express 서버 HTTPS 연결하기
 description: 상용 SSL 인증서를 활용하여 Express 서버를 HTTPS 로 접속해보도록 합시다
-date: '2019-09-20T00:00:00.000Z'
-layout: post
+date: "2019-09-20T00:00:00.000Z"
+template: post
+slug: "connecting-ssl-with-express"
 category: Nodejs
 tags:
   - Nodejs
@@ -10,7 +11,6 @@ tags:
   - SSL
   - TLS
   - HTTPS
-comments: true
 ---
 
 SW 마에스트로 프로젝트를 진행하면서 사용자 회원가입 시 사용자의 개인정보(Email, 비밀번호 등)을 안전하게 서버로 전달하기 위해 암호화할 필요가 생겼습니다. 그리하여 우리 팀은 SecureSign 에서 가장 저렴한 SSL 인증서를 구입하여 Express 서버에 이를 연동하였고, 이러한 과정을 정리해보고자 합니다.
@@ -76,25 +76,25 @@ https.createServer(options, app).listen(PORT);
 // production 모드에서는 option 이 truthy한 값이고
 // development 모드에서는 option 이 falsy한 값입니다
 const option =
-  process.env.NODE_ENV === 'production'
+  process.env.NODE_ENV === "production"
     ? {
-        key: fs.readFileSync(__dirname + '/인증서경로/domain_xxxxx.key.pem'),
+        key: fs.readFileSync(__dirname + "/인증서경로/domain_xxxxx.key.pem"),
         cert: fs.readFileSync(
-          __dirname + '/인증서경로/인증서경로/domain_xxxxx.crt.pem'
+          __dirname + "/인증서경로/인증서경로/domain_xxxxx.crt.pem"
         ),
-        ca: fs.readFileSync(__dirname + '/인증서경로/ca-chain-bundle.pem'),
+        ca: fs.readFileSync(__dirname + "/인증서경로/ca-chain-bundle.pem"),
       }
-    : undefined
+    : undefined;
 
 // production 모드에서는 https 서버를
 // development 모드에서는 http 서버를 사용합니다
 option
   ? https.createServer(option, app).listen(PORT, () => {
-      console.log(`Server is running at port ${PORT}`)
+      console.log(`Server is running at port ${PORT}`);
     })
   : http.createServer(app).listen(PORT, () => {
-      console.log(`Server is running at port ${PORT}`)
-    })
+      console.log(`Server is running at port ${PORT}`);
+    });
 ```
 
 그러면 이제 정상적으로 HTTPS 연결이 되는 것을 확인할 수 있습니다.
@@ -109,9 +109,9 @@ option
 // HTTPS 서버
 option
   ? https.createServer(option, app).listen(PORT, () => {
-      console.log(`Server is running at port ${PORT}`)
+      console.log(`Server is running at port ${PORT}`);
     })
-  : undefined
+  : undefined;
 
 // HTTPS 서버로 요청을 전달하여 자동으로 SSL 연결을 해주는 HTTP 서버
 // SSL option 이 존재하지 않는 development 단계에서는 그냥 HTTP 서버만이 존재하게 됩니다.
@@ -119,14 +119,14 @@ option
   ? http
       .createServer(function(req, res) {
         res.writeHead(301, {
-          Location: 'https://' + req.headers['host'] + req.url,
-        })
-        res.end()
+          Location: "https://" + req.headers["host"] + req.url,
+        });
+        res.end();
       })
       .listen(80)
   : http.createServer(app).listen(PORT, () => {
-      console.log(`Server is running at port ${PORT}`)
-    })
+      console.log(`Server is running at port ${PORT}`);
+    });
 ```
 
 # Review

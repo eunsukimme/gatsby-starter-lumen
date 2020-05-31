@@ -1,15 +1,14 @@
 ---
 title: KNN 알고리즘으로 Regression 하는 방법
 description: KNN 알고리즘으로 regression 문제를 푸는 방법에 대해서 알아봅시다
-date: '2019-10-20T16:00:00.000Z'
-layout: post
+date: "2019-10-20T16:00:00.000Z"
+template: post
+slug: "how-to-regression-with-KNN"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
-use_math: true
-comments: true
 ---
 
 KNN 알고리즘은 classification 문제를 푸는데 유용한 알고리즘이지만, 동시에 regression 문제도 풀 수 있습니다. 이번 포스팅에서는 저번 KNN 포스팅에서 사용했던 movie 데이터를 그대로 사용하도록 하겠습니다. 그러나 새로운 영화의 good 또는 bad 를 분류하는 것이 아닌, 실제 IMDb 평점을 예측해보도록 하겠습니다.

@@ -1,15 +1,15 @@
 ---
 title: Pandas에서 여러 DataFrame다루기
 description: Pandas로 여러 DataFrame을 merge하는 방법에 대해서 알아봅시다
-date: '2019-10-10T00:00:00.000Z'
-layout: post
+date: "2019-10-10T00:00:00.000Z"
+template: post
+slug: "handling-multiple-dataframes-in-pandas"
 category: Data Science
 tags:
   - TIL
   - Python
   - Data Science
   - Pandas
-comments: true
 ---
 
 지금까지는 하나의 *DataFrame*을 다루는 방법들에 대해서 알아보았습니다. 그런데 모든 데이터를 하나의 테이블에 저장하는 경우는 현실에선 좀 처럼 쉽게 접할 수 없습니다. 그러므로 이번 포스팅에서는 여러 테이블, 즉 *DataFrame*들을 다루는 방법에 대해서 알아보도록 합시다.

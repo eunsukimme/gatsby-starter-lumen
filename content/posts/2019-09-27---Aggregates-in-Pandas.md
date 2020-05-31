@@ -1,15 +1,15 @@
 ---
 title: Pandas에서 Aggregate하기
 description: Pandas의 Aggregates에 대해서 알아봅시다
-date: '2019-09-27T00:00:00.000Z'
-layout: post
+date: "2019-09-27T00:00:00.000Z"
+template: post
+slug: "aggregating-data-with-pandas"
 category: Data Science
 tags:
   - TIL
   - Python
   - Data Science
   - Pandas
-comments: true
 ---
 
 이번 포스팅에서는 Pandas 의 *Aggregates*에 대해서 알아봅시다. *Aggregates*는 숫자로 구성된 특정 그룹을 설명할 수 있는 단일 숫자를 만들어내는 강력한 방법입니다. 일반적으로 평균, 표준편차, 중간값 등이 자주 사용됩니다.

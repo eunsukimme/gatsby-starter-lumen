@@ -1,13 +1,13 @@
 ---
 title: Python list comprehension, lambda
 description: 파이썬 list comprehension, lambda에 대해서 알아봅시다
-date: '2019-09-23T00:00:00.000Z'
-layout: post
+date: "2019-09-23T00:00:00.000Z"
+template: post
+slug: "python-list-comprehension-and-lambda"
 category: Python
 tags:
   - TIL
   - Python
-comments: true
 ---
 
 # List Comprehension

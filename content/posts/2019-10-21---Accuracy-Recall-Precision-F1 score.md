@@ -1,15 +1,14 @@
 ---
 title: Accuracy(정확도), Recall(재현율), Precision(정밀도), 그리고 F1 Score
 description: Machine Learning 모델의 성능을 측정하는 네 가지 지표에 대해서 알아봅시다
-date: '2019-10-21T03:00:00.000Z'
-layout: post
+date: "2019-10-21T03:00:00.000Z"
+template: post
+slug: "what-is-accuracy-recall-precision-and-f1-score"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
-use_math: true
-comments: true
 ---
 
 Classification 을 할 수 있는 ML 알고리즘을 작성하였다면, 다음 단계는 해당 모델이 얼마나 잘 작동하는지 통계적으로 확인해보는 것입니다. 이러한 척도를 계산하는 공식에 대해서 알아봅시다.

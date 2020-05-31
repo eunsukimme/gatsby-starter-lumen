@@ -1,15 +1,14 @@
 ---
 title: KNN(K-Nearest Neighbors) 알고리즘 개념정리
 description: K 번째 이웃을 찾는 KNN 알고리즘에 대해서 알아봅시다
-date: '2019-10-20T14:00:00.000Z'
-layout: post
+date: "2019-10-20T14:00:00.000Z"
+template: post
+slug: "understanding-KNN"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
-use_math: true
-comments: true
 ---
 
 K-Nearest Neightbors(KNN)은 classification 알고리즘 중 하나입니다. 핵심은 비슷한 속성(카테고리)을 갖는 데이터끼리 가까이에 위치한다는 것입니다.

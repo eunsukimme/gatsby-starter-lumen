@@ -1,15 +1,15 @@
 ---
 title: Statistics in Numpy
 description: Numpy를 활용하여 확률분포에 대해서 알아봅시다
-date: '2019-09-24T00:00:00.000Z'
-layout: post
+date: "2019-09-24T00:00:00.000Z"
+template: post
+slug: "statistics-in-numpy"
 category: Data Science
 tags:
   - TIL
   - Python
   - Data Science
   - Numpy
-comments: true
 ---
 
 # 히스토그램(Histogram)

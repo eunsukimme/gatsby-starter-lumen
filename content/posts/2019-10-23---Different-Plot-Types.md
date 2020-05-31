@@ -1,16 +1,15 @@
 ---
-title: Matplotlib로 Bar Chart(막대 그래프), Pie Chart(원 그래프), Histogram(히스토그램) 그리는 방법
+title: Matplotlib로 Bar(막대), Pie(원), Histogram(히스토그램) 그리는 방법
 description: Matplotlib를 활용하여 다양한 그래프를 그리는 방법에 대해서 알아봅시다
-date: '2019-10-23T00:30:00.000Z'
-layout: post
+date: "2019-10-23T00:30:00.000Z"
+template: post
+slug: "how-to-draw-charts-with-matplotlib"
 category: Data Visualization
 tags:
   - TIL
   - Python
   - Matplotlib
   - Data Visualization
-use_math: true
-comments: true
 ---
 
 이번 포스팅에서는 Matplotlib를 활용하여 선 그래프 뿐만 아니라 다양한 형태의 그래프를 그려보도록 하겠습니다. 또한, 데이터를 시각화할때 어떤 그래프로 나타내야 하는지도 함께 알아보도록 하겠습니다.

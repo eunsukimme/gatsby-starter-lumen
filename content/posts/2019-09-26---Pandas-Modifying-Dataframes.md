@@ -1,15 +1,15 @@
 ---
 title: Pandas에서 column다루기
 description: Pandas에서 컬럼을 추가하고, 컬럼 상에서 연산하고, 컬럼에 lambda함수를 적용하며 이름을 변경하는 방법에 대해서 알아봅시다
-date: '2019-09-26T00:00:00.000Z'
-layout: post
+date: "2019-09-26T00:00:00.000Z"
+template: post
+slug: "handling-columns-with-pandas"
 category: Data Science
 tags:
   - TIL
   - Python
   - Data Science
   - Pandas
-comments: true
 ---
 
 # 컬럼 추가하기(Adding a Column)

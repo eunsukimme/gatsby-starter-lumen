@@ -1,15 +1,15 @@
 ---
 title: Matplotlib로 선 그래프 그리기 완벽 정리
 description: Matplotlib로 선 그래프를 그리는 방법에 대해서 알아봅시다
-date: '2019-10-14T00:00:00.000Z'
-layout: post
+date: "2019-10-14T00:00:00.000Z"
+template: post
+slug: "master-drawing-line-chart-with-matplotlib"
 category: Data Visualization
 tags:
   - TIL
   - Python
   - Matplotlib
   - Data Visualization
-comments: true
 ---
 
 Matplotlib 는 차트와 그래프를 그리는데 사용하는 Python 라이브러리입니다. Matplotlib 를 활용하여 간단한 2 차원 선 그래프 그려보는 방법에 대해서 알아보도록 합시다.

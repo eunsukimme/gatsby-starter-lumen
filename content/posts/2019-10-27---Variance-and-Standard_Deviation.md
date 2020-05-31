@@ -1,16 +1,15 @@
 ---
 title: Variance(분산) 그리고 Standard Deviation(표준편차) 개념 정리
 description: 데이터가 흩어진 정도를 나타내는 지표인 분산과 표준편차에 대해서 알아봅시다
-date: '2019-10-27T23:00:00.000Z'
-layout: post
+date: "2019-10-27T23:00:00.000Z"
+template: post
+slug: "understanding-variance-and-standard-deviation"
 category: Data Science
 tags:
   - TIL
   - Python
   - Data Science
   - Numpy
-use_math: true
-comments: true
 ---
 
 평균과 중간값은 데이터를 이해할 수 있는 좋은 지표입니다. 이번 포스팅에서는 데이터가 어떻게 분포되어있는지를 나타내는 분산과 표준편차에 대해서 알아봅시다.

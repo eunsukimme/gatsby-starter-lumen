@@ -1,15 +1,14 @@
 ---
 title: Logistic Regression(로지스틱 회귀) 개념 정리
 description: Machine Learning 알고리즘 중 대표적인 classification 알고리즘인 Logistic Regression에 대해서 알아봅시다
-date: '2019-10-22T02:00:00.000Z'
-layout: post
+date: "2019-10-22T02:00:00.000Z"
+template: post
+slug: "understanding-logistic-regression"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
-use_math: true
-comments: true
 ---
 
 우리가 이메일 서비스를 사용할 때, 수신한 이메일이 스팸일지 아닐지를 어떻게 결정할 수 있을까요? 한 가지 방법은 _Logistic Regression_ 을 활용하는 것입니다.

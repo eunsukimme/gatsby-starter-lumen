@@ -1,16 +1,15 @@
 ---
 title: Linear Regression(선형 회귀) 개념 정리
 description: Supervised Learning에서 연속적인 값을 예측하는 Linear Regression에 대해서 알아봅시다
-date: '2019-10-15T00:00:00.000Z'
-layout: post
+date: "2019-10-15T00:00:00.000Z"
+template: post
+slug: "understanding-linear-regression"
 category: Machine Learning
 tags:
   - TIL
   - Machine Learning
   - Python
   - scikit-learn
-use_math: true
-comments: true
 ---
 
 ML 을 공부하는 목적은 현실 세계의 데이터를 해석하여 다음번에 어떤 일이 발생할지 예측하기 위함입니다. 이 때 활용할 수 있는 가장 간단한 모델은 바로 직선입니다. 데이터를 가장 잘 대표하는 하나의 직선을 찾는 것이 바로 **Linear Regression** 입니다.

@@ -1,15 +1,15 @@
 ---
 title: Pandas 기초 사용법
 description: Pandas 라이브러리를 다루는 기초적인 내용에 대해서 알아봅시다
-date: '2019-09-25T00:00:00.000Z'
-layout: post
+date: "2019-09-25T00:00:00.000Z"
+template: post
+slug: "pandas-basic"
 category: Data Science
 tags:
   - TIL
   - Python
   - Data Science
   - Pandas
-comments: true
 ---
 
 Pandas 는 테이블 형태(row 와 columns 으로 구성된)인 tabular 데이터를 다루는데 특화된 Python 라이브러리입니다. Tabular 데이터는 SQL 과 Excel 데이터와 같은 기능을 하지만, Pandas 는 여기에 Python 의 강점을 더했습니다.
