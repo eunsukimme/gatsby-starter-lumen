@@ -4,8 +4,9 @@ description: 상용 SSL 인증서를 활용하여 Express 서버를 HTTPS 로 �
 date: "2019-09-20T00:00:00.000Z"
 template: post
 slug: "connecting-ssl-with-express"
-category: Nodejs
+category: Back-end
 tags:
+  - Back-end
   - Nodejs
   - Express
   - SSL
