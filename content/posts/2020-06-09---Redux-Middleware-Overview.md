@@ -9,7 +9,7 @@ tags:
   - Front-end
   - Typescript
   - Javascript
-socialImage: "/media/redux.jpg"
+socialImage: "/media/redux.png"
 ---
 
 > 양 쪽을 연결하여 데이터를 주고 받을 수 있도록 중간에서 매개 역할을 하는 소프트웨어 - _Wikipedia_
