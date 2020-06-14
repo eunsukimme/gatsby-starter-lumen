@@ -4,9 +4,11 @@ description: React 어플리케이션의 성능을 최적화 시키는 대표적
 date: "2020-05-27T23:30:00.000Z"
 template: post
 slug: "5-ways-to-optimize-your-react-app"
-category: React
+category: Front-end
 tags:
+  - Front-end
   - React
+  - Javascript
   - Optimization
 socialImage: "/media/react.png"
 ---

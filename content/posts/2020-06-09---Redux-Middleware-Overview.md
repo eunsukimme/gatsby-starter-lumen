@@ -7,7 +7,8 @@ slug: "redux-middleware-overview"
 category: Front-end
 tags:
   - Front-end
-  - Typescript
+  - React
+  - Redux
   - Javascript
 socialImage: "/media/redux.png"
 ---
@@ -23,14 +24,14 @@ Redux 의 미들웨어는 Express 의 미들웨어와 형태는 다르지만, �
 아래 그림은 Redux 의 아키텍처 및 데이터의 흐름을 잘 보여주고 있습니다.
 
 <figure>
-  <img style="object-fit: contain;" alt="Typescript" src="https://miro.medium.com/max/1220/1*wA06Mbgf4QPqWcV6bCNfrw.png">
+  <img style="object-fit: contain;" alt="Redux Architecture" src="https://miro.medium.com/max/1220/1*wA06Mbgf4QPqWcV6bCNfrw.png">
   <figcaption style="color: grey;">Redux 아키텍처</figcaption>
 </figure>
 
 여기서 middleware 가 추가된 그림은 아래와 같은데요, `Action` 과 `Reducer` 사이에 `Middleware`가 위치하고 있습니다.
 
 <figure>
-  <img style="object-fit: contain;" alt="Typescript" src="https://blog.gougousis.net/wp-content/uploads/2018/08/redux_middleware.png">
+  <img style="object-fit: contain;" alt="Redux Architecture with Middleware" src="https://blog.gougousis.net/wp-content/uploads/2018/08/redux_middleware.png">
   <figcaption style="color: grey;">Middleware가 추가된 Redux 아키텍처</figcaption>
 </figure>
 
@@ -73,24 +74,24 @@ git clone https://github.com/reduxjs/redux.git
 그런 다음 `examples/todos` 폴더로 이동해서 `yarn start` 명령을 실행해줍시다. 그러면 다음과 같은 Todo 앱이 나타날거에요.
 
 <figure>
-  <img style="width: 400px; object-fit: contain;" alt="Typescript" src="/media/redux/todo_example.png">
+  <img style="width: 400px; object-fit: contain;" alt="Redux Todo Example" src="/media/redux/todo_example.png">
   <figcaption style="color: grey;">Redux 의 todos 예제를 실행한 화면</figcaption>
 </figure>
 
 이 예제는 Todo 를 추가하고, Todo 를 클릭해서 상태를 토글하며, 각 상태별 Todo 를 필터링하는 간단한 기능이 포함된 앱입니다.
 
 <figure>
-  <img style="width: 400px; object-fit: contain;" alt="Typescript" src="/media/redux/todo_example2.png">
+  <img style="width: 400px; object-fit: contain;" alt="Redux Todo Example" src="/media/redux/todo_example2.png">
   <figcaption style="color: grey;">Todo 입력</figcaption>
 </figure>
 
 <figure>
-  <img style="width: 400px; object-fit: contain;" alt="Typescript" src="/media/redux/todo_example3.png">
+  <img style="width: 400px; object-fit: contain;" alt="Redux Todo Example" src="/media/redux/todo_example3.png">
   <figcaption style="color: grey;">Todo가 추가된 모습</figcaption>
 </figure>
 
 <figure>
-  <img style="width: 400px; object-fit: contain;" alt="Typescript" src="/media/redux/todo_example4.png">
+  <img style="width: 400px; object-fit: contain;" alt="Redux Todo Example" src="/media/redux/todo_example4.png">
   <figcaption style="color: grey;">Todo를 클릭하면 선이 그어짐(토글)</figcaption>
 </figure>
 
@@ -162,21 +163,21 @@ export default todos;
 Vscode 의 `chrome debugger extension` 을 설치한 뒤, `switch` 문에 break point 를 생성하고 F5 번을 누른 후 다시 todo 를 토글 해봅시다. 그러면 Debugger 가 해당 위치에 포커싱을 하게 되는데, 다음과 같이 나타나게 됩니다.
 
 <figure>
-  <img style="object-fit: contain;" alt="Typescript" src="/media/redux/make_side_effect.png">
+  <img style="object-fit: contain;" alt="Debugging" src="/media/redux/make_side_effect.png">
   <figcaption style="color: grey;">VScode chrome debugger 가 실행된 화면. break point 에 커서가 위치하고있다.</figcaption>
 </figure>
 
 F8 키를 눌러서 step over 해보면, 다음과 같이 Redux 의 combination 함수의 context 에 들어오게 됩니다.
 
 <figure>
-  <img style="object-fit: contain;" alt="Typescript" src="/media/redux/combine_reducer.png">
+  <img style="object-fit: contain;" alt="Debugging" src="/media/redux/combine_reducer.png">
   <figcaption style="color: grey;">CombineReducers 함수 내의 클로저인 combination 함수의 context에 위치한 화면</figcaption>
 </figure>
 
 여기서 계속 step over 해보면, 다음과 같이 이전 상태와 현재 상태를 비교하는 로직에 다다르게 됩니다.
 
 <figure>
-  <img style="object-fit: contain;" alt="Typescript" src="/media/redux/comparison.png">
+  <img style="object-fit: contain;" alt="Debugging" src="/media/redux/comparison.png">
   <figcaption style="color: grey;">hasChanged 로 이전 상태와 현재 상태를 비교하는 모습.</figcaption>
 </figure>
 

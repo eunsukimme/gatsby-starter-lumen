@@ -4,8 +4,9 @@ description: react 컴포넌트를 만드는데 발생했던 문제들을 해결
 date: "2020-05-24T17:30:00.000Z"
 template: post
 slug: "understanding-react-hooks"
-category: React
+category: Front-end
 tags:
+  - Front-end
   - React
   - Hook
 socialImage: "/media/react.png"
