@@ -1,5 +1,5 @@
 ---
-title: Github, AWS S3, IAM 그리고 CodeBuild 로 React 프로젝트 CI/CD 구축하기
+title: AWS S3, IAM 그리고 CodeBuild 로 React 프로젝트 CI/CD 구축하기
 description: AWS S3, IAM, CodeBuild 를 활용해 React 프로젝트를 호스팅하는 CI/CD 파이프라인을 구축하는 방법에 대해서 알아봅시다.
 date: "2020-08-18T21:30:00.000Z"
 template: post
