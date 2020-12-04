@@ -4,9 +4,9 @@ description: DRF(Django REST Framework)를 활용하여 CRUD 연산을 수행하
 date: "2020-10-25T23:55:00.000Z"
 template: post
 slug: "django-rest-framework-tutorial"
-category: Backend
+category: Back-end
 tags:
-  - Backend
+  - Back-end
   - Django
   - DRF
 socialImage: "/media/django.png"
