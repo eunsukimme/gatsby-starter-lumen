@@ -1,6 +1,5 @@
 // @flow strict
 import React from "react";
-import moment from "moment";
 import styles from "./Meta.module.scss";
 
 type Props = {
@@ -8,11 +7,15 @@ type Props = {
   updated: string,
 };
 
-const Meta = ({ date, updated }: Props) => (
+const Meta = ({ date }: Props) => (
   <div className={styles["meta"]}>
     <p className={styles["meta__date"]}>
-      {`Published ${moment(date).format("D MMM YYYY")}`}
-      {updated ? `| ${moment(updated).format("D MMM YYYY")}` : null}
+      Published{" "}
+      {new Date(date).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      })}
     </p>
   </div>
 );

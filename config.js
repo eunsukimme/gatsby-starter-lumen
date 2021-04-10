@@ -38,7 +38,7 @@ module.exports = {
       github: "eunsukimme",
       rss: "https://eunsukimme.netlify.com/rss.xml",
       vkontakte: "",
-      linkedin: "eunsukimme",
+      linkedin: "#",
       instagram: "#",
       line: "",
       gitlab: "",
@@ -46,6 +46,7 @@ module.exports = {
       codepen: "",
       youtube: "",
       soundcloud: "",
+      medium: "",
     },
   },
 };
