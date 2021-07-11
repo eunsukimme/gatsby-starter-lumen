@@ -1,7 +1,7 @@
 ---
 title: 쿠버네티스 스테이트풀셋(StatefulSets) - 스테이트풀 애플리케이션 배포하기
 description: 파드에 안정적인 아이덴티티를 부여하고 관리하는 스테이트풀셋에 대해서 알아봅시다
-date: "2021-07-11T20:30:00.000Z"
+date: "2021-07-12T01:10:00.000Z"
 template: post
 slug: "kubernetes-statefulsets"
 category: DevOps
